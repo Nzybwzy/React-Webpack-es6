@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-class AppComponent extends Component {
+class Tab extends Component {
   render() {
     return (
       // Add your component markup and other subcomponent references here.
@@ -7,4 +7,4 @@ class AppComponent extends Component {
     );
   }
 }
-module.exports = AppComponent;
+module.exports = Tab;
