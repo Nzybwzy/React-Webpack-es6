@@ -7,7 +7,7 @@ const ownerType = [
         {k:"2",v: "商户"},
         {k:"8",v: "其他"}
     ]
-class Tab2 extends React.Component {
+class Tab2 extends Component {
 	constructor(props) {
 		super(props);
 		this.state = {
@@ -19,8 +19,8 @@ class Tab2 extends React.Component {
 	onHandleClickButton (tabName) {
 		alert(tabName)
 	}
-	setActivedTAb (tab) {
-		alert(tab)
+	setActivedTAb = (tab) => {
+		alert(tab);
 	}
 	render() {
 		let { pageIndex } = this.state;
