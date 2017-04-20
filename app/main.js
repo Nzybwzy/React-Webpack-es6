@@ -50,7 +50,7 @@ export default class AppComponent extends Component {
         // console.log(routers)
         return (
             <div>
-            {/*
+            {
                 routers == "HomePage" ? 
                     <div>
                         <Tab />
@@ -79,7 +79,7 @@ export default class AppComponent extends Component {
                         <div>{detail}</div>
                     </div>
                     : null
-            */}
+            }
             </div>
         );
     }
